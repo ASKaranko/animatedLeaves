@@ -11,9 +11,10 @@
 body {
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  box-sizing: border-box;
 }
 section {
+  overflow: hidden;
   position: absolute;
   width: 100%;
   height: 100%;
